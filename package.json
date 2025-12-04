@@ -1,0 +1,14 @@
+{
+  "name": "benchmark-node-crc32",
+  "version": "1.0.0",
+  "description": "Benchmarking Node.js zlib.crc32 with @node-rs/crc32",
+  "scripts": {
+    "benchmark": "node benchmark.js"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a",
+  "dependencies": {
+    "@node-rs/crc32": "^1.10.6",
+    "tinybench": "^6.0.0"
+  }
+}
