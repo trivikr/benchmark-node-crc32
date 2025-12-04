@@ -22,5 +22,5 @@ jobs:
           cache: "pnpm"
       - name: install
         run: pnpm i
-      - name: test
+      - name: benchmark
         run: pnpm benchmark
